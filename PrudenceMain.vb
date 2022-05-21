@@ -2,6 +2,7 @@
 
 Public Class PrudenceMain
     Dim MI As Bitmap
+    'PrudenceToolStrip subroutines
     Private Sub AddTabButtonTS_Click_1(sender As Object, e As EventArgs) Handles AddTabButtonTS.Click
         Dim NPC As New PrudenceControl With {.Dock = DockStyle.Fill, .BackColor = Color.White}
         Dim NTP As New TabPage With {.Text = "New List"}
